@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="esp">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href ="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <nav class="navbar bg-secondary">
+            <div class="navbar-brand d-flex justify-content-center align-items-center">
+                <div>
+                    <box-icon type='logo' name='instagram'></box-icon>
+                </div>
+                <div>
+                    <p>
+                        Instagram
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="d-flex align-items-center justify-content-center nuevopost">
+                <div>
+                    <button class="bg-success" data-bs-toggle="modal" data-bs-target="#myModal"> Creat New Post</button>
+                </div>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                    
+                            <!-- Header del modal-->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Creating Post</h4>
+                                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> -->
+                            </div>
+                    
+                            <!-- Cuerpo del modal-->
+                            <div class="modal-body">
+                                <div>
+                                    <input type="text" class="input-new-post" placeholder="Description">
+                                </div>
+        
+                                <div>
+                                    <button type="button" class="btn-new-post"><box-icon type='solid' name='camera-plus' class="logo"></box-icon></button>
+                                    <button type="button" class="btn-new-post"><box-icon name='location-plus' type='solid' class="logo"></box-icon></button>
+                                </div>
+                            </div>
+                    
+                            <!-- footer del modal -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle d-block justify-content-center align-items-center iconoConfig" data-bs-toggle="dropdown" href="#"> 
+                            <box-icon name='cog'></box-icon>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another Action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider"></hr></li>
+                          <li><a class="dropdown-item" href="#"> <name='log-out' class="pt-1 mx-1">Log out</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <nav class="d-flex align-items-center justify-content-center pt-4">
+            <a href="/index.html">
+            <button class="mr-2" type="button">
+                Mosáico
+            </button>
+            </a>
+            
+            <a href="/targeta.html">
+                <button type="button">
+                Cuadro
+            </button>
+            </a>
+        </nav>
+
+
+
+
+
+        <div class="container-fluid">
+
+            <div class="container galeriaimagenes my-2">
+                <img class = "mr-2" src="https://i.ebayimg.com/images/g/oL4AAOSwjGFlHHpG/s-l400.jpg" height="300" width="300"  alt="">
+                <img class = "mr-2" src="https://verdecora.es/blog/wp-content/uploads/2022/09/betta-acuario.jpg" height="300" width="300" alt="">
+                <img class = "mr-2" src="https://services.meteored.com/img/article/mari-troppo-caldi-i-pesci-alieni-colonizzano-il-mediterraneo-1660052198467_768.jpeg" height="300" width="300"  alt="">
+            </div>
+
+
+            <div class="container galeriaimagenes my-2">
+                <img class = "mr-2" src="https://img.freepik.com/foto-gratis/hermosos-peces-exoticos-colores_23-2150737631.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701216000&semt=ais" height="300" width="300"  alt="">
+                <img class = "mr-2" src="https://img.freepik.com/fotos-premium/peces-colores-agua-hermosa-representacion-peces-acuario-3d_856795-3261.jpg" height="300" width="300" alt="">
+                <img class = "mr-2" src="https://media.istockphoto.com/id/1195424467/es/foto/pescado-betta-de-media-luna-larga-azul.jpg?s=612x612&w=0&k=20&c=5njaGmTCWoZho-uBpGIGDoIMN8Tr2Exg2Nm4_YAZwhE=" height="300" width="300"  alt="">
+            </div>
+
+
+            <div class="container galeriaimagenes my-2">
+                <img class = "mr-2" src="https://images.hola.com/imagenes/mascotas/20220823215523/peces-se-persiguen-nadar-vertical-dn/1-127-355/peces-se-persiguen-nadar-vertical-t.jpg" height="300" width="300"  alt="">
+                <img class = "mr-2" src="https://littletreedesignbiotopes.es/cdn/shop/products/bettachanoides_grande.jpg?v=1674083747" height="300" width="300" alt="">
+                <img class = "mr-2" src="https://socav.com/wp-content/uploads/2021/02/CINCTUS-SAV-1-400x400.jpg" height="300" width="300"  alt="">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+<!-- <script src="https://kit.fontawesome.com/244c5f576e.js" crossorigin="anonymous"></script>
+
+    <i class="fab fa-html5"></i>
+  <i class="fas fa-ellipsis-v"></i>
+  <i class="far fa-heart"></i>
+  <i class="far fa-comment"></i>
+  <i class="far fa-paper-plane"></i>
+  <i class="far fa-bookmark"></i> -->
+
+
+
+</html>
